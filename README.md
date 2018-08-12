@@ -1,14 +1,14 @@
-# A Foo Specific Mongo Image
+# Puppeteer / Chrome / Node.js
 
-**Warning**: this is an experimental image that will surely introduce breaking changes.
+A basic container setup for Puppeteer on Node.js. Unofficial: beware - may become stale.
 
 ## Docker: Building and Pushing
 
 ```bash
-export DOCKER_TAG_NAME="foo-mongo" \
-&& export DOCKER_VERSION="base" \
+export DOCKER_TAG_NAME="puppeteer-chrome-node" \
+&& export DOCKER_VERSION="latest" \
 && export DOCKER_USERNAME="foosoftware" \
-&& docker build -t $DOCKER_TAG_NAME . -f Dockerfile
+&& docker build -t $DOCKER_TAG_NAME .
 ```
 then:
 ```bash
