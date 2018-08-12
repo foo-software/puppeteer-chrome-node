@@ -1,5 +1,5 @@
 {
   "name": "puppeteer-chrome-node",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A basic container setup for Puppeteer on Node.js. Unofficial: beware - may become stale."
 }
