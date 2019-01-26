@@ -1,4 +1,4 @@
-FROM node:8.8.1
+FROM node:10.15.0
 
 # Add Chrome dependencies
 RUN apt-get update && \
